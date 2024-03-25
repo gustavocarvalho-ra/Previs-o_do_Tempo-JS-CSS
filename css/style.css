@@ -19,6 +19,8 @@ body {
   opacity: .8;
   border-radius: 25px;
   padding: 20px;
+  width: 95%;
+  max-width: 450px;
 }
 
 .input-cidade {
@@ -29,7 +31,8 @@ body {
   font-size: 18px;
   background-color: #7c7c7c2b;
   color: #fff;
-  width: calc(100%-70px);
+  /* width: calc(100%-100px); */
+  width: 75%;
 }
 
 .lupa {
@@ -46,12 +49,26 @@ body {
   width: 20px;
 }
 
-.cidade {
+.content-2 {
+  margin-top: 30px;
+}
 
+.cidade {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 300;
 }
 
 .temp {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+}
 
+.content-3 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .img-previsao {
@@ -59,9 +76,11 @@ body {
 }
 
 .previsao {
-
+  color: #fff;
+  margin-left: 20px;
 }
 
 .umidade {
-  
+  color: #fff;
+  margin-top: 20px;
 }
