@@ -11,4 +11,5 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
 }
