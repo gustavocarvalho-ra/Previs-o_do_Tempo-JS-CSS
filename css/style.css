@@ -13,3 +13,21 @@ body {
   justify-content: center;
   background-image: url('https://source.unsplash.com/1600x900/?landscape');
 }
+
+.content {
+  background: #000;
+  opacity: .8;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.input-cidade {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: #7c7c7c2b;
+  color: #fff;
+  width: calc(100%-100px);
+}
