@@ -15,5 +15,6 @@ async function buscarCidade(cidade) {
 function cliqueCidade () {
   const cidade = document.querySelector(".input-cidade").value
 
+  buscarCidade(cidade)
   console.log(cidade)
 }
